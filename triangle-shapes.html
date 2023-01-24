@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Shapes</title>
+    <style>
+        .tooltip {
+            display: inline-block;
+        }
+        .bubble {
+            padding: 10px 20px;
+            background-color: #16b37f;
+            color: #ffffff;
+            border-radius: 40px;
+            font-family: Poppins;
+        }
+        .arrow {
+            width: 0;
+            height: 0;
+            
+            border-bottom: 10px solid #16b37f;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            margin-left: calc(50% - 10px);
+        }
+    </style>
+</head>
+<body>
+    <div class="tooltip">
+        <div class="arrow"></div>
+        <div class="bubble">the tooltip text</div>
+    </div>
+</body>
+</html>
